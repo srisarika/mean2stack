@@ -1,0 +1,26 @@
+#footer {
+  background: #000;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  width:100%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 299px) {
+  #footer {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  #footer {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #footer {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let post of posts" class="post-preview">
+      <a (click)="onNavigate(post.postPath)">
+        <h2 class="post-title">
+          {{post.postTitle}}
+        </h2></a>
+      <h3 class="post-subtitle">
+        {{post.postSubtitle}}
+      </h3>
+      <p class="post-meta">{{post.postMeta}}</p>
+    </div>
+    <hr>
+    <!-- Pager -->
+    <!--                 <ul class="pager">
+                        <li class="next">
+                            <a (click)="olderPosts()">Older Posts →</a>
+                        </li>
+                    </ul> -->
+  </div>
+</div>

@@ -1,0 +1,14 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:2.6.12
+    container_name: mymongodb
+  app:
+    container_name: mean2stack
+    depends_on: 
+      - mongo
+    build: .
+    ports:
+      - "9001:9001"
+    links:
+      - mongo:mongo

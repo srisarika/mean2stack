@@ -1,0 +1,231 @@
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+h1 { font-size: 18px; }
+h6 { font-size: 13px; }
+
+.profile-card {
+  width: 100%;
+  height: 100%;
+  font: 12px "Myriad Pro";
+}
+.profile-card .profile-cover {
+  position: relative;
+  height: 260px;
+
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+  transition: all .5s;
+  -moz-transition: all .5s; /* Firefox 4 */
+  -webkit-transition: all .5s; /* Safari and Chrome */
+  -o-transition: all .5s; /* Opera */
+}
+.profile-card .profile-cover:hover {
+  filter: none;
+  filter: none;
+  -webkit-filter: none;
+
+}
+.profile-card .profile-cover .profile-avatar {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border: 5px solid #ffffff;
+  width: 150px;
+  height: 140px;
+  position: absolute;
+  margin: 25px auto 0;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  transition: all .5s;
+  -moz-transition: all .5s; /* Firefox 4 */
+  -webkit-transition: all .5s; /* Safari and Chrome */
+  -o-transition: all .5s; /* Opera */
+}
+.profile-card .profile-cover .profile-avatar:hover {
+  margin-top: 23px;
+}
+.profile-card .profile-cover .profile-avatar .btns-container {
+  position: relative;
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a {
+  display: inline-block;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a img {
+  display: block;
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.zoom-avatar {
+  background: rgba(103, 186, 144, 0.7);
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.zoom-avatar:hover {
+  background: rgba(103, 186, 144, 1);
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.read-more {
+  background: rgba(231, 76, 60, 0.7);
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.read-more:hover {
+  background: rgba(231, 76, 60, 1);
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.view-map {
+  background: rgba(157, 177, 218, 0.7);
+}
+.profile-card .profile-cover .profile-avatar .btns-container .profile-links a.view-map:hover {
+  background: rgba(157, 177, 218, 1);
+}
+.profile-card .profile-cover .profile-details {
+  background: rgba(0,0,0,0.4);
+  border-top: 1px solid rgba(0,0,0,0.5);
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0 7px;
+}
+.profile-card .profile-cover .profile-details h6 {
+  font-weight: normal;
+}
+.profile-card .profile-info {
+  background: #e74c3c;
+  color: #ffffff;
+  padding: 10px;
+  font-family: Arial;
+  text-align: justify;
+}
+.profile-card .profile-info h1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 3px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.profile-card .profile-info .info-area {
+  padding: 0 10px 5px;
+}
+.profile-card .profile-map {
+  border-top: 1px solid #cccccc;
+  float: left;
+  width: 100%;
+}
+.profile-card .profile-content {
+  border: 1px solid #cccccc;
+  border-top: none;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.profile-card .profile-content ul li {
+  float: left;
+  padding: 10px 32px;
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #ffffff;
+}
+.profile-card .profile-content ul li:first-child {
+  border-left: none;
+}
+.profile-card .profile-content ul li:last-child {
+  border-right: none;
+}
+.profile-card .profile-content ul li .digits {
+  font-weight: bold;
+  font-size: 16px;
+}
+.social a {
+  position:relative;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding-right: 5px;
+}
+.social a:hover {
+  cursor: pointer;
+}
+.social a svg {
+  height: 100%;
+  width: 100%;
+  fill: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+.facebook {
+  background: #3b5998;
+}
+.facebook:focus, .facebook:hover {
+  background: #2d4373;
+}
+
+
+.github {
+  background: #383940;
+}
+.github:focus, .github:hover {
+  background: #202125;
+}
+
+.google-plus {
+  background: #dd4b39;
+}
+.google-plus:focus, .google-plus:hover {
+  background: #c23321;
+}
+
+.linkedin {
+  background: #007bb6;
+}
+.linkedin:focus, .linkedin:hover {
+  background: #005983;
+}
+
+
+
+
+
+.twitter {
+  background: #55acee;
+}
+.twitter:focus, .twitter:hover {
+  background: #2795e9;
+}
+.jumbotron {
+  background: url('../../assets/images/newyork.jpg') no-repeat center;
+  padding-bottom: 0px;
+  background-size: cover;
+}
+
+
+

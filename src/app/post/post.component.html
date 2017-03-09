@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="post-preview">
+      <h1 class="post-title">
+        {{post.postTitle}}
+      </h1>
+      <div [innerHTML]= "post.postContent" class="post-content">
+
+      </div>
+
+      <p style="padding-top:10px"class="post-meta">{{post.postMeta}}</p>
+    </div>
+    <hr>
+  </div>
+</div>

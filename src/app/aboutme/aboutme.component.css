@@ -1,0 +1,94 @@
+#about {
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.devicons {
+  font-size: 30px;
+  color: #000;
+  margin: 0 .25em;
+}
+
+.devicons-html5 {
+  color: #E34C26;
+}
+
+.devicons-css3 {
+  color: #0b73b8;
+}
+
+.devicons-bootstrap {
+  color: #401F7C;
+}
+
+.devicons-wordpress {
+  color: #21759b;
+}
+
+.devicons-javascript {
+  background: #f0db4f;
+}
+
+.devicons-jquery {
+  color: #0769AD;
+}
+
+.devicons-angular {
+  color: #e62a39;
+}
+
+.devicons-nodejs {
+  color: #8CC84B;
+}
+
+.devicons-npm {
+  color: #cb3837;
+}
+
+.devicons-sublime {
+  color: #ff8100;
+}
+
+.devicons-cloud9 {
+  color: #237cc5;
+}
+
+.devicons-vim {
+  color: #019833;
+}
+
+.devicons-heroku {
+  color: #6567a5;
+}
+
+.devicons-git {
+  color: #ee513b;
+}
+.devicons-jenkins {
+  color: #ee513b;
+}
+.devicons-gulp {
+  color: red;
+}
+.devicons-intellij {
+  color: teal;
+}
+.devicons-ionic {
+  color: steelblue;
+}
+.devicons-mongodb {
+  color: yellowgreen;
+}
+.devicons-google_analytics {
+  color: slategray;
+}
+.devicons-sass {
+  color: palevioletred;
+}
+.devicons-less {
+  color: #ee513b;
+}
+.devicons-jira {
+  color: midnightblue;
+}
