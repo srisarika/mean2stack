@@ -18,5 +18,3 @@ docker pull bachu/mean2stack
 docker compose up -d or  docker run -p 9001:9001 bachu/mean2stack
 
 The project is deployed in AWS.
-
-http://54.174.200.136:9001/#/
